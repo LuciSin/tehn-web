@@ -1,0 +1,11 @@
+html {
+    font-size: 10px;
+}
+
+.container-iframe {
+    display: none;
+}
+
+#grid-pagina {
+    display: block;
+}

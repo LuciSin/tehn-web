@@ -1,0 +1,17 @@
+#hamburger, #ch-menu, #acasa-mediu {
+    display: block;
+}
+
+ul.meniu {
+    display: none;
+}
+
+ul.meniu li {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: var(--culoare-deschisa-meniu);
+}
+
+#ch-menu:checked + ul.meniu {
+    display: block;
+}
