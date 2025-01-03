@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Pagina de contact pentru Ghid de Alergare.">
+    <meta name="keywords" content="contact, alergare, ghid alergare">
+    <title>Contact - Ghid de Alergare</title>
+    <link rel="shortcut icon" href="resurse/favicon/favicon.svg" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lucian Spiridon">
+
+    <link rel="stylesheet" href="resurse/css/general.css" type="text/css"/>
+    <link rel="stylesheet" href="resurse/css/general1000.css" type="text/css" media="screen and (max-width:1000px)"/>
+    <link rel="stylesheet" href="resurse/css/general700.css" type="text/css" media="screen and (max-width:700px)"/>
+    <link rel="stylesheet" href="resurse/css/nav700.css" type="text/css" media="screen and (max-width:700px)"/>
+    <link rel="stylesheet" href="resurse/css/nav.css" type="text/css"/>
+    <link rel="stylesheet" href="resurse/css/nav1000.css" type="text/css" media="screen and (max-width:1000px)"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="resurse/js/date-ora.js"></script>
+</head>
+<body>
+
+<header class="c1" id="h1">
+    <h1>Contact - <span>Ghid de Alergare</span></h1>
+</header>
+
+<nav>
+    <label id="hamburger" for="ch-menu">
+        <img src="resurse/imagini/Hamburger_icon_alb.png" alt="menu">
+    </label>
+    <input id="ch-menu" type="checkbox">
+    <ul class="meniu">
+        <li>
+            <div id="acasa" class="text-icon"><a href="index.html">Acasa</a></div>
+            <div id="acasa-mediu" class="imag-icon"><span class="fas fa-regular fa-house"></span></div>
+            <ul>
+                <li><a href="index.html#introduction">Introducere</a></li>
+                <li><a href="index.html#techniques">Tehnici</a></li>
+                <li><a href="index.html#training">Antrenament</a></li>
+                <li><a href="index.html#nutrition">Nutriție</a></li>
+                <li><a href="index.html#running-schedule">Program</a></li>
+            </ul>
+        </li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="alergatori.html">Rezultate</a></li>
+    </ul>
+</nav>
+
+<main>
+    <div id="data-ora">
+        <h3><i class="fas fa-calendar-alt"></i> Data și Ora Curentă</h3>
+        <p id="data-ora-afisata"></p>
+    </div>
+    <div id="grid-pagina">
+        <section id="contact" class="card">
+            <h2>Contactează-ne</h2>
+            <form action="#" method="post">
+                <div>
+                    <label for="nume">Nume:</label>
+                    <input type="text" id="nume" name="nume" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="experienta">Experiența în alergare:</label>
+                    <select id="experienta" name="experienta" required>
+                        <option value="incepator">Începător</option>
+                        <option value="intermediar">Intermediar</option>
+                        <option value="avansat">Avansat</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="obiective">Ce dorești să realizezi prin alergare:</label>
+                    <input type="text" id="obiective" name="obiective" required>
+                </div>
+                <div>
+                    <label for="distanta">Distanța pe care vrei să o alergi:</label>
+                    <select id="distanta" name="distanta" required>
+                        <option value="5km">5 km</option>
+                        <option value="10km">10 km</option>
+                        <option value="maraton">Maraton</option>
+                        <option value="ultramaraton">Ultramaraton</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="mesaj">Mesaj:</label>
+                    <textarea id="mesaj" name="mesaj" rows="5" required></textarea>
+                </div>
+                <div>
+                    <button type="submit">Trimite</button>
+                </div>
+            </form>
+        </section>
+    </div>
+    <div class="contact-links">
+        <h3>Alte modalități de contact:</h3>
+        <ul>
+            <li><a href="https://www.google.com" target="_blank">Vizitează Google</a></li>
+            <li><a href="mailto:contact@ghidalergare.com">Trimite-ne un email</a></li>
+            <li><a href="tel:+40xxxxxxxxx">Sună-ne la +40 123 456 789</a></li>
+        </ul>
+    </div>
+</main>
+
+<footer>
+    <a href="#" title="mergi sus" id="link-top">
+        <div id="triunghi">mergi sus</div>
+    </a>
+    <address>
+        Strada alergării, nr. 10, București, sector 1, România
+    </address>
+    <p>&copy; 2024 Ghid de Alergare. Toate drepturile rezervate.</p>
+</footer>
+
+</body>
+</html>

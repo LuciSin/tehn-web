@@ -1,0 +1,59 @@
+#hamburger, #ch-menu, #acasa-mediu {
+    display: none;
+}
+
+nav {
+    --culoare-inchisa-meniu: darkgray;
+    --culoare-deschisa-meniu: orange;
+    --latime-buton: 100px;
+    --inaltime-buton: 25px;
+    background-color: var(--culoare-deschisa-meniu);
+}
+
+ul.meniu ul {
+    display: none;
+    padding: 0;
+    position: relative;
+    z-index: 10;
+    margin-left: -1px;
+}
+
+ul.meniu ul li {
+    background-color: var(--culoare-deschisa-meniu);
+}
+
+ul.meniu {
+    display: flex;
+    padding: 0;
+}
+
+ul.meniu li {
+    list-style-type: none;
+    border: 1px solid var(--culoare-inchisa-meniu);
+    width: var(--latime-buton);
+    height: var(--inaltime-buton);
+    line-height: var(--inaltime-buton);
+    transition: all 0.5s linear;
+}
+
+ul.meniu li a, ul.meniu li div {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    cursor: pointer;
+    transition: all 0.5s linear;
+}
+
+ul.meniu li:hover, ul.meniu li:hover {
+    background-color: var(--culoare-inchisa-meniu);
+}
+
+ul.meniu li a:hover, ul.meniu li div:hover {
+    color: white;
+}
+
+ul.meniu > li:hover ul {
+    display: block;
+}
