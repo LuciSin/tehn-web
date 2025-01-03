@@ -3,8 +3,8 @@
 }
 
 nav {
-    --culoare-inchisa-meniu: purple;
-    --culoare-deschisa-meniu: pink;
+    --culoare-inchisa-meniu: darkgray;
+    --culoare-deschisa-meniu: orange;
     --latime-buton: 100px;
     --inaltime-buton: 25px;
     background-color: var(--culoare-deschisa-meniu);

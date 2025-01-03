@@ -9,15 +9,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Lucian Spiridon">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
     <link rel="stylesheet" href="resurse/css/general.css" type="text/css"/>
     <link rel="stylesheet" href="resurse/css/general1000.css" type="text/css" media="screen and (max-width:1000px)"/>
     <link rel="stylesheet" href="resurse/css/general700.css" type="text/css" media="screen and (max-width:700px)"/>
     <link rel="stylesheet" href="resurse/css/nav700.css" type="text/css" media="screen and (max-width:700px)"/>
     <link rel="stylesheet" href="resurse/css/nav.css" type="text/css"/>
     <link rel="stylesheet" href="resurse/css/nav1000.css" type="text/css" media="screen and (max-width:1000px)"/>
+    <script src="resurse/js/date-ora.js"></script>
 </head>
 <body>
-
+    <div id="data-ora">
+        <h3><i class="fas fa-calendar-alt"></i> Data și Ora Curentă</h3>
+        <p id="data-ora-afisata"></p>
+    </div>
 <header class="c1" id="h1">
     <h1>Ghid de <span>Alergare</span></h1>
 </header>
@@ -40,6 +45,7 @@
             </ul>
         </li>
         <li><a href="contact.html">Contact</a></li>
+        <li><a href="alergatori.html">Rezultate</a></li>
     </ul>
 </nav>
 
@@ -200,7 +206,7 @@
 
 <footer>
     <a href="#" title="mergi sus" id="link-top">
-        <div id="triunghi"></div>
+        <div id="triunghi">Mergi sus</div>
     </a>
     <address>
         Strada alergării, nr. 10, București, sector 1, România

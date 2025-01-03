@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    --culoare-mov: #6ca0dc; /* Culoare mai albastră */
+    --culoare-mov: #6ca0dc; /* Culoare mai albastra */
     --culoare-roz-inchis: #5a82c2;
     --culoare-roz-inchis-t: rgba(106, 160, 220, 0.5);
     --cl-marcare: #e0f1ff;
@@ -170,6 +170,29 @@ form button {
 
 form button:hover {
     background-color: #5a82c2;
+}
+
+#data-ora {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    z-index: 1000;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+#data-ora h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+#data-ora p {
+    margin-top: 3px;
+    font-size: 14px;
 }
 
 @media (max-width: 700px) {
